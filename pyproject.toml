@@ -1,0 +1,95 @@
+# ******************************************************************************
+#
+# push-back-2026, VRC V5 2026 competition code
+#
+# Copyright 2024-2026 Oakman Robotics.
+#
+# All rights reserved.
+#
+# ******************************************************************************
+
+[tool]
+
+[tool.pccc]
+
+header_length = 50
+body_length = 72
+wrap = true
+force_wrap = true
+spell_check = false
+repair = false
+ignore_generated_commits = false
+
+types = [
+  "depends",
+  "doc",
+  "feat",
+  "fix",
+  "perf",
+  "refactor",
+  "release",
+  "style",
+  "test",
+]
+
+scopes = [
+  "auto",
+  "driver",
+  "robot",
+  "tooling",
+]
+
+footers = [
+  "github-closes",
+  "signed-off-by",
+]
+
+required_footers = [
+  "signed-off-by",
+]
+
+[tool.poetry]
+
+authors = ["Jeremy A Gray <grayj2@wcslive.com>"]
+description = "OHS VEX VRC 2025-2026 Competition Repository"
+name = "Push Back 2026"
+version = "0.0.1"
+maintainers = ["Jeremy A Gray <grayj2@wcslive.com>"]
+homepage = "https://github.com/jeremy-a-gray/push-back-2026"
+repository = "https://github.com/jeremy-a-gray/push-back-2026"
+
+[tool.poetry.dependencies]
+
+pros-cli = ">=3,<4"
+python = ">=3.11,<4.0"
+
+[tool.poetry.group.dev.dependencies]
+
+pccc = ">=0"
+pre-commit = ">=3"
+ruff = ">=0"
+sphinx = ">=8"
+tox = "^4.26.0"
+doc8 = "^1.1.2"
+
+[tool.ruff.lint]
+
+select = [
+  "B",
+  "C90",
+  "D",
+  "E",
+  "F",
+  "RUF",
+  "S",
+  "W",
+]
+
+ignore = [
+  "D203",
+  "D213",
+]
+
+[tool.ruff.lint.per-file-ignores]
+
+"__init__.py" = [ "F401" ]
