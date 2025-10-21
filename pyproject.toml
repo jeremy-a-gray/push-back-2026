@@ -65,12 +65,12 @@ python = ">=3.11,<4.0"
 
 [tool.poetry.group.dev.dependencies]
 
+doc8 = ">=1"
 pccc = ">=0"
 pre-commit = ">=3"
 ruff = ">=0"
 sphinx = ">=8"
-tox = "^4.26.0"
-doc8 = "^1.1.2"
+tox = ">=4"
 
 [tool.ruff.lint]
 
