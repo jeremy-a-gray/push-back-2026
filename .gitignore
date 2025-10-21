@@ -14,15 +14,20 @@
 .dir-locals.el
 
 # Python.
-.venv
+.prompt
 .tox
+.venv
 
 # Generated files.
 *.gif
+*.html
 *.jpeg
 *.jpg
 *.png
 *.zip
+
+# Downloads.
+downloads/
 
 # PROS.
 *.bin
