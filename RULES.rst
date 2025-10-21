@@ -8,27 +8,30 @@
 ..
 .. ***************************************************************************
 
-=======
- Rules
-=======
+================
+ Robotics Rules
+================
 
 #. Everyone works.  Everyone must clean and organize parts.  Everyone
    can take notes, present, build, code, or drive.  You have to be
    willing to fill in even in things you don't like when necessary.
-#. Students must maintain a C average or better in the class to remain
-   in class and participate.
+#. Students must maintain a C average or better in the class and
+   participate to remain in the robotics class (1B).
 
    * Students with a D average will be restricted to the classroom to
      completing assignments until their course average is a C or better.
    * Students with a failing average may be moved to other BE period
      classes.
 
+#. All personal electronic devices must remain in assigned pouches
+   during all work sessions, including after school.
 #. Maintain the notebook.  At any point the notebook is out of date,
    all other activities (construction, programming, driving, etc.)
    will be suspended until the notebook is up to date.
 #. All other academic priorities take precedence over robotics,
    including, but not limited to:
 
+   * Health and Career Prep B coursework (for freshmen)
    * coursework for any other academic classes (at OHS, dual
      enrollment, or online)
    * make up work for absences
