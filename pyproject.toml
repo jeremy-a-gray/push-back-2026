@@ -10,6 +10,14 @@
 
 [tool]
 
+[tool.doc8]
+
+ignore-path = [
+  ".tox",
+  ".venv",
+  "*.egg-info",
+]
+
 [tool.pccc]
 
 header_length = 50
@@ -61,7 +69,7 @@ repository = "https://github.com/jeremy-a-gray/push-back-2026"
 [tool.poetry.dependencies]
 
 pros-cli = ">=3,<4"
-python = ">=3.11,<4.0"
+python = ">=3.12,<4.0"
 
 [tool.poetry.group.dev.dependencies]
 
@@ -92,4 +100,11 @@ ignore = [
 
 [tool.ruff.lint.per-file-ignores]
 
-"__init__.py" = [ "F401" ]
+"__init__.py" = [
+  "F401",
+]
+
+"tests/**/*.py" = [
+    "S101",
+    "S311",
+]
